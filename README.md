@@ -1,44 +1,32 @@
-# Global Air Quality ETL Project
+# 🌍 Global Air Quality ETL & Analytics Project
 
 ## Overview
-The **Global Air Quality ETL Project** is a comprehensive data pipeline and visualization project that collects, processes, and analyzes global air quality data. The project demonstrates end-to-end **ETL (Extract, Transform, Load) processes**, data analysis, and interactive dashboard visualization using Python, SQL, and Power BI. 
+Air quality data is fragmented across multiple sources and often not analysis-ready.
+The objective of this project is to design a batch ETL pipeline that collects global air quality data, cleans and standardizes it, stores it in an analytical database, and exposes insights through an interactive Power BI dashboard.
 
-This project is ideal for showcasing skills in **data engineering, data analytics, and business intelligence**.
-
----
-
-## Project Objectives
-- Collect air quality, weather, and population data from multiple sources.
-- Clean, transform, and merge datasets for analysis.
-- Perform exploratory data analysis (EDA) to identify patterns and trends.
-- Build an interactive **Power BI dashboard** to visualize air quality indicators globally.
-- Automate the ETL process for repeatable and scalable analysis.
+This project focuses on **data reliability, structure, and analytical usability, not real-time streaming.**.
 
 ---
 
-## Folder Structure
+## Scope of the Project
+This project demonstrates:
 
-Global Air Quality ETL Project/
-│
-├── Scripts/ # Python scripts for ETL processes
-│ ├── extract/ # Scripts to extract data from APIs or CSVs
-│ ├── transform/ # Data cleaning and transformation scripts
-│ └── load/ # Scripts to load data into databases or files
-│
-├── Notebooks/ # Jupyter notebooks for exploratory analysis
-│
-├── Dashboard/ # Power BI dashboard files (.pbix)
-│
-├── data/ # Raw datasets used for analysis
-│
-├── processed_data/ # Cleaned and merged datasets
-│
-├── requirements.txt # Python dependencies
-│
-├── README.md # Project documentation
-│
-└── .gitignore # Git ignore file
+-Script-driven batch ETL pipeline
+-Modular extract, transform, and load layers
+-Data validation and logging
+-Analytical data modeling
+-Business-focused visualization using Power BI
 
+---
+
+## Data Sources
+
+**Air Quality Data**
+-Source: OpenAQ public API
+-Metrics: PM2.5, PM10, location, date
+
+**Data Sets**
+ Weather and population datasets (CSV-based)
 
 ---
 
@@ -63,60 +51,49 @@ Global Air Quality ETL Project/
 
 ---
 
-## How to Run
+## How to Run the Pipeline:-
 
 1. **Clone the repository:**
 
-```bash
 git clone https://github.com/siddharthramgundam/Global-Air-Quality-ETL-Project.git
 cd "Global Air Quality ETL Project"
 Set up a virtual environment (recommended):
 
+
+2️. Set up virtual environment
+
 python -m venv .venv
-.\.venv\Scripts\activate   # Windows
+source .venv/bin/activate   # Linux/Mac
+.\.venv\Scripts\activate    # Windows
 
-
-Install dependencies:
+3️. Install dependencies
 
 pip install -r requirements.txt
 
+4️. Run ETL pipeline
 
-Run ETL scripts:
+python pipeline/run_pipeline.py
 
-# Example:
-python Scripts/extract/extract_data.py
-python Scripts/transform/transform_data.py
-python Scripts/load/load_data.py
+logs/pipeline.log
 
+## Dashboard Overview
 
-Open the dashboard:
+-Time-based trends of air quality indicators (PM2.5 and PM10) to observe changes across different periods.
+-Country-wise comparison of pollution levels to identify regions with relatively higher or lower particulate concentration.
+-Distribution analysis of PM2.5 and PM10 values to understand overall pollution spread.
+-AQI category breakdowns to classify air quality into interpretable health-related categories
 
-Open Dashboard/dashboard.pbix in Power BI to explore interactive visualizations.
+## Sample Insights
 
-Sample Insights
+Based on the available data and visual analysis:
 
-Global air quality trends over time.
+-Urban and densely populated regions tend to exhibit higher PM2.5 concentrations compared to less populated areas.
+-Seasonal variation in particulate matter levels is visible across multiple regions.
+-Certain locations frequently fall into poorer AQI categories, indicating recurring air quality concerns.
 
-Correlation between weather conditions and pollutant levels.
+## Author
 
-Country-wise population vs air quality analysis.
-
-Key locations with highest air pollution levels.
-
-Interactive visualizations for stakeholders.
-
-Author
-
-Siddharth Ramgundam
-
-Email: ramgundamsiddharth@gmail.com
-
-LinkedIn: https://www.linkedin.com/in/siddharth-ramgundam
-
-GitHub: https://github.com/siddharthramgundam
-
-License
-
-This project is open-source and free to use for learning and educational purposes.
-
-
+**Siddharth Ramgundam**
+**Email**    ramgundamsiddharth@gmail.com
+**GitHub**   https://github.com/siddharthramgundam
+**LinkedIn** https://www.linkedin.com/in/siddharth-ramgundam

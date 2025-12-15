@@ -30,6 +30,13 @@ This project demonstrates:
 
 ---
 
+
+## ETL Architecture
+
+![WhatsApp Image 2025-12-15 at 6 46 16 PM](https://github.com/user-attachments/assets/4426ef7a-5304-4634-ab03-6e12a6dbeb10)
+
+
+
 ## Features
 
 - **ETL Pipeline:** Automates extraction, transformation, and loading of data.

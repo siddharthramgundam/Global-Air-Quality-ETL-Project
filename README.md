@@ -41,8 +41,7 @@ This project demonstrates:
   />
 </p>
 
-
-
+---
 
 ## Features
 

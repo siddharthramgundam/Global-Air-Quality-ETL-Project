@@ -33,7 +33,8 @@ This project demonstrates:
 
 ## ETL Architecture
 
-![Uploading ETL.png…]()
+<img width="500" height="500" alt="![Uploading ETL.png…]()" src="https://github.com/user-
+
 
 
 

@@ -28,18 +28,6 @@ This project demonstrates:
 **Data Sets**
  Weather and population datasets (CSV-based)
 
----
-
-
-## ETL Architecture
-
-<p align="center">
-  <img
-    src="images/etl_bi_architecture.png"
-    alt="![Uploading ETL.png…]()"
-    width="600"
-  />
-</p>
 
 ---
 
@@ -58,7 +46,7 @@ This project demonstrates:
 
 - **Programming Languages:** Python (pandas, NumPy, matplotlib, seaborn)
 - **Data Visualization:** Power BI
-- **Database / SQL:** SQLite or other SQL scripts for data loading
+- **Database / SQL:**Postgres and pgadmin
 - **Version Control:** Git and GitHub
 - **Development Tools:** VS Code, Jupyter Notebook
 

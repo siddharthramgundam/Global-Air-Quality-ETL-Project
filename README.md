@@ -29,6 +29,9 @@ This project demonstrates:
  Weather and population datasets (CSV-based)
 
 
+<img width="1024" height="1536" alt="ETL" src="https://github.com/user-attachments/assets/5649bece-f10f-49e9-93f7-eff6a8053e3b" />
+
+
 ---
 
 ## Features

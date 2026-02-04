@@ -33,7 +33,13 @@ This project demonstrates:
 
 ## ETL Architecture
 
-![Uploading ETL.png…]()
+<img
+  width="500"
+  height="500"
+  alt="End-to-End Banking Analytics Architecture"
+  src="https://github.com/user-attachments/assets/d2b80daa-9e59-4c78-862b-eada1249d3df"
+/>
+
 
 
 ## Features

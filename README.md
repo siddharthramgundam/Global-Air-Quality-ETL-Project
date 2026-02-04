@@ -36,7 +36,7 @@ This project demonstrates:
 <img
   width="500"
   height="500"
-  alt=""C:\Users\Siddharth Ramgundam\Downloads\ETL.png""
+  alt="![Uploading ETL.png…]()"
   src="https://github.com/user-attachments/assets/d2b80daa-9e59-4c78-862b-eada1249d3df"
 />
 
